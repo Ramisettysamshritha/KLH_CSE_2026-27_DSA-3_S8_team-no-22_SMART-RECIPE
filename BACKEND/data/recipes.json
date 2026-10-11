@@ -1,0 +1,690 @@
+[
+  {
+    "id": 1,
+    "name": "Vegetable Fried Rice",
+    "category": "Rice",
+    "cookingTime": "25 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "rice",
+      "carrot",
+      "peas",
+      "onion",
+      "soy sauce",
+      "oil"
+    ],
+    "instructions": [
+      "Cook the rice and allow it to cool.",
+      "Heat oil in a pan and sauté onion.",
+      "Add carrot and peas and cook until slightly tender.",
+      "Add rice and soy sauce.",
+      "Toss everything together and serve hot."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Aloo Tomato Curry",
+    "category": "Curry",
+    "cookingTime": "30 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "potato",
+      "tomato",
+      "onion",
+      "garlic",
+      "ginger",
+      "oil"
+    ],
+    "instructions": [
+      "Boil and cut the potatoes.",
+      "Heat oil and sauté onion, garlic and ginger.",
+      "Add chopped tomatoes and cook until soft.",
+      "Add potatoes and spices.",
+      "Simmer for a few minutes and serve."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Masala Omelette",
+    "category": "Breakfast",
+    "cookingTime": "15 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1510693206972-df098062cb71?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "egg",
+      "onion",
+      "tomato",
+      "green chili",
+      "salt",
+      "oil"
+    ],
+    "instructions": [
+      "Beat the eggs in a bowl.",
+      "Add onion, tomato, green chili and salt.",
+      "Heat oil in a pan.",
+      "Pour the egg mixture into the pan.",
+      "Cook both sides and serve hot."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tomato Rice",
+    "category": "Rice",
+    "cookingTime": "30 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "rice",
+      "tomato",
+      "onion",
+      "garlic",
+      "ginger",
+      "oil"
+    ],
+    "instructions": [
+      "Cook the rice and keep it aside.",
+      "Sauté onion, garlic and ginger.",
+      "Add tomatoes and cook until soft.",
+      "Add cooked rice and mix well.",
+      "Cook for a few minutes and serve."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Paneer Masala",
+    "category": "Curry",
+    "cookingTime": "35 min",
+    "difficulty": "Medium",
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "paneer",
+      "tomato",
+      "onion",
+      "cream",
+      "ginger",
+      "garlic"
+    ],
+    "instructions": [
+      "Cut paneer into cubes.",
+      "Sauté onion, ginger and garlic.",
+      "Add tomato and cook until soft.",
+      "Blend or mash into a smooth sauce.",
+      "Add paneer and cream and simmer."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Potato Fry",
+    "category": "Side Dish",
+    "cookingTime": "25 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "potato",
+      "onion",
+      "green chili",
+      "turmeric",
+      "salt",
+      "oil"
+    ],
+    "instructions": [
+      "Cut potatoes into small pieces.",
+      "Heat oil in a pan.",
+      "Add potatoes and spices.",
+      "Cook until golden and crispy.",
+      "Serve as a side dish."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Vegetable Upma",
+    "category": "Breakfast",
+    "cookingTime": "20 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "semolina",
+      "carrot",
+      "peas",
+      "onion",
+      "green chili",
+      "oil"
+    ],
+    "instructions": [
+      "Dry roast semolina and keep aside.",
+      "Sauté onion and green chili in oil.",
+      "Add vegetables and cook briefly.",
+      "Add water and bring to a boil.",
+      "Slowly add semolina and stir until cooked."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Dal Rice",
+    "category": "Rice",
+    "cookingTime": "35 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "rice",
+      "dal",
+      "tomato",
+      "onion",
+      "turmeric",
+      "salt"
+    ],
+    "instructions": [
+      "Wash rice and dal.",
+      "Cook them together until soft.",
+      "Prepare a simple tomato and onion tempering.",
+      "Mix the tempering into the dal.",
+      "Serve hot with rice."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Chickpea Curry",
+    "category": "Curry",
+    "cookingTime": "40 min",
+    "difficulty": "Medium",
+    "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "chickpeas",
+      "tomato",
+      "onion",
+      "ginger",
+      "garlic",
+      "oil"
+    ],
+    "instructions": [
+      "Soak chickpeas and cook until tender.",
+      "Sauté onion, ginger and garlic.",
+      "Add tomatoes and spices.",
+      "Add chickpeas and water.",
+      "Simmer until the curry thickens."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Vegetable Maggi",
+    "category": "Noodles",
+    "cookingTime": "15 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "maggi noodles",
+      "carrot",
+      "peas",
+      "onion",
+      "capsicum",
+      "oil"
+    ],
+    "instructions": [
+      "Heat oil and sauté onion.",
+      "Add carrot, peas and capsicum.",
+      "Add water and bring to a boil.",
+      "Add noodles and seasoning.",
+      "Cook until the noodles are ready."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Bread Upma",
+    "category": "Breakfast",
+    "cookingTime": "20 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "bread",
+      "onion",
+      "tomato",
+      "green chili",
+      "turmeric",
+      "oil"
+    ],
+    "instructions": [
+      "Cut bread into small pieces.",
+      "Sauté onion and green chili.",
+      "Add tomatoes and spices.",
+      "Add bread pieces.",
+      "Mix well and cook for a few minutes."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Egg Fried Rice",
+    "category": "Rice",
+    "cookingTime": "25 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "rice",
+      "egg",
+      "onion",
+      "carrot",
+      "soy sauce",
+      "oil"
+    ],
+    "instructions": [
+      "Cook the rice and keep aside.",
+      "Scramble eggs in a hot pan.",
+      "Add onion and carrot.",
+      "Add cooked rice and soy sauce.",
+      "Mix well and serve."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Chicken Biryani",
+    "category": "Biryani",
+    "cookingTime": "60 min",
+    "difficulty": "Hard",
+    "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "rice",
+      "chicken",
+      "onion",
+      "tomato",
+      "ginger",
+      "garlic"
+    ],
+    "instructions": [
+      "Marinate the chicken with spices.",
+      "Fry onions until golden.",
+      "Cook the chicken with tomato, ginger and garlic.",
+      "Add partially cooked rice.",
+      "Cover and cook on low heat until fragrant."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Vegetable Biryani",
+    "category": "Biryani",
+    "cookingTime": "50 min",
+    "difficulty": "Medium",
+    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "rice",
+      "carrot",
+      "peas",
+      "potato",
+      "beans",
+      "onion"
+    ],
+    "instructions": [
+      "Wash and partially cook the rice.",
+      "Sauté onion and vegetables.",
+      "Add spices and cook the vegetables.",
+      "Layer vegetables with rice.",
+      "Cover and cook until fully done."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Butter Chicken",
+    "category": "Curry",
+    "cookingTime": "45 min",
+    "difficulty": "Medium",
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "chicken",
+      "tomato",
+      "butter",
+      "cream",
+      "onion",
+      "garlic"
+    ],
+    "instructions": [
+      "Cook chicken until lightly browned.",
+      "Prepare tomato and onion sauce.",
+      "Add butter and cream.",
+      "Add cooked chicken.",
+      "Simmer until the sauce thickens."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Chana Masala",
+    "category": "Curry",
+    "cookingTime": "35 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "chickpeas",
+      "onion",
+      "tomato",
+      "ginger",
+      "garlic",
+      "oil"
+    ],
+    "instructions": [
+      "Cook soaked chickpeas until tender.",
+      "Sauté onion, ginger and garlic.",
+      "Add tomatoes and spices.",
+      "Add chickpeas.",
+      "Simmer until thick."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Palak Paneer",
+    "category": "Curry",
+    "cookingTime": "40 min",
+    "difficulty": "Medium",
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "paneer",
+      "spinach",
+      "onion",
+      "tomato",
+      "garlic",
+      "cream"
+    ],
+    "instructions": [
+      "Blanch the spinach.",
+      "Blend spinach into a smooth puree.",
+      "Sauté onion, tomato and garlic.",
+      "Add spinach puree.",
+      "Add paneer and simmer."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Vegetable Pulao",
+    "category": "Rice",
+    "cookingTime": "30 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "rice",
+      "carrot",
+      "peas",
+      "beans",
+      "onion",
+      "potato"
+    ],
+    "instructions": [
+      "Wash the rice.",
+      "Sauté onion and vegetables.",
+      "Add rice and water.",
+      "Season with spices.",
+      "Cook until the rice is fluffy."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Lemon Rice",
+    "category": "Rice",
+    "cookingTime": "20 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "rice",
+      "lemon",
+      "peanuts",
+      "green chili",
+      "turmeric",
+      "oil"
+    ],
+    "instructions": [
+      "Cook the rice and cool it.",
+      "Heat oil and roast peanuts.",
+      "Add green chili and turmeric.",
+      "Add lemon juice.",
+      "Mix with rice and serve."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Curd Rice",
+    "category": "Rice",
+    "cookingTime": "15 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "rice",
+      "curd",
+      "green chili",
+      "ginger",
+      "salt",
+      "oil"
+    ],
+    "instructions": [
+      "Cook rice until soft.",
+      "Allow it to cool slightly.",
+      "Mix with curd and salt.",
+      "Prepare a simple tempering.",
+      "Add the tempering and serve chilled."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Vegetable Sandwich",
+    "category": "Snacks",
+    "cookingTime": "15 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "bread",
+      "tomato",
+      "onion",
+      "cucumber",
+      "cheese",
+      "butter"
+    ],
+    "instructions": [
+      "Slice the vegetables.",
+      "Spread butter on bread.",
+      "Add vegetables and cheese.",
+      "Close the sandwich.",
+      "Toast until golden."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Veggie Pasta",
+    "category": "Pasta",
+    "cookingTime": "30 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "onion",
+      "capsicum",
+      "garlic",
+      "cheese"
+    ],
+    "instructions": [
+      "Boil the pasta.",
+      "Sauté garlic and onion.",
+      "Add tomato and capsicum.",
+      "Mix in cooked pasta.",
+      "Top with cheese and serve."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Tomato Pasta",
+    "category": "Pasta",
+    "cookingTime": "25 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "garlic",
+      "onion",
+      "olive oil",
+      "cheese"
+    ],
+    "instructions": [
+      "Boil the pasta.",
+      "Cook garlic and onion in oil.",
+      "Add tomatoes and simmer.",
+      "Add pasta to the sauce.",
+      "Finish with cheese."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "French Toast",
+    "category": "Breakfast",
+    "cookingTime": "15 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "bread",
+      "egg",
+      "milk",
+      "sugar",
+      "butter"
+    ],
+    "instructions": [
+      "Whisk egg, milk and sugar.",
+      "Dip bread into the mixture.",
+      "Heat butter in a pan.",
+      "Cook both sides until golden.",
+      "Serve warm."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Pancakes",
+    "category": "Breakfast",
+    "cookingTime": "20 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "flour",
+      "milk",
+      "egg",
+      "sugar",
+      "butter"
+    ],
+    "instructions": [
+      "Mix flour, milk, egg and sugar.",
+      "Prepare a smooth batter.",
+      "Heat a pan with butter.",
+      "Pour batter and cook both sides.",
+      "Serve with your preferred topping."
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Vegetable Soup",
+    "category": "Soup",
+    "cookingTime": "30 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "carrot",
+      "potato",
+      "peas",
+      "onion",
+      "tomato",
+      "salt"
+    ],
+    "instructions": [
+      "Chop all vegetables.",
+      "Sauté onion.",
+      "Add vegetables and water.",
+      "Simmer until vegetables are tender.",
+      "Season and serve hot."
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Tomato Soup",
+    "category": "Soup",
+    "cookingTime": "25 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "tomato",
+      "onion",
+      "garlic",
+      "butter",
+      "cream",
+      "salt"
+    ],
+    "instructions": [
+      "Cook tomatoes, onion and garlic.",
+      "Blend until smooth.",
+      "Return the mixture to the pan.",
+      "Add butter and cream.",
+      "Simmer and serve hot."
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Egg Curry",
+    "category": "Curry",
+    "cookingTime": "35 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "egg",
+      "tomato",
+      "onion",
+      "ginger",
+      "garlic",
+      "oil"
+    ],
+    "instructions": [
+      "Boil the eggs.",
+      "Sauté onion, ginger and garlic.",
+      "Add tomato and spices.",
+      "Add boiled eggs.",
+      "Simmer for a few minutes."
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Gobi Manchurian",
+    "category": "Snacks",
+    "cookingTime": "40 min",
+    "difficulty": "Medium",
+    "image": "https://images.unsplash.com/photo-1625398407796-82650a8c135f?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "cauliflower",
+      "corn flour",
+      "onion",
+      "capsicum",
+      "soy sauce",
+      "garlic"
+    ],
+    "instructions": [
+      "Coat cauliflower with batter.",
+      "Fry until crisp.",
+      "Sauté garlic, onion and capsicum.",
+      "Add soy sauce.",
+      "Toss fried cauliflower in the sauce."
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Veggie Noodles",
+    "category": "Noodles",
+    "cookingTime": "25 min",
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+    "ingredients": [
+      "noodles",
+      "carrot",
+      "capsicum",
+      "cabbage",
+      "onion",
+      "soy sauce"
+    ],
+    "instructions": [
+      "Boil the noodles.",
+      "Sauté onion and vegetables.",
+      "Add soy sauce.",
+      "Add cooked noodles.",
+      "Toss everything together and serve."
+    ]
+  }
+]

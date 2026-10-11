@@ -1,0 +1,388 @@
+/* ================================
+   AUTH PAGE
+================================ */
+
+.auth-page {
+  min-height: calc(100vh - 78px);
+  background: #f8f3ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 6%;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 1120px;
+  min-height: 650px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: white;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(60, 40, 25, 0.12);
+}
+
+/* ================================
+   LEFT VISUAL
+================================ */
+
+.auth-visual {
+  position: relative;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(42, 30, 24, 0.85),
+      rgba(155, 78, 43, 0.65)
+    ),
+    url("https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: flex-end;
+  padding: 55px;
+  color: white;
+}
+
+.visual-overlay {
+  max-width: 390px;
+}
+
+.visual-small {
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  opacity: 0.85;
+}
+
+.visual-overlay h1 {
+  font-size: 68px;
+  line-height: 0.95;
+  margin: 0 0 25px;
+  font-weight: 800;
+  letter-spacing: -3px;
+}
+
+.visual-text {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 330px;
+  opacity: 0.9;
+}
+
+.visual-stat {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.visual-stat strong {
+  font-size: 26px;
+}
+
+.visual-stat span {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+/* ================================
+   RIGHT FORM
+================================ */
+
+.auth-form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.auth-form {
+  width: 100%;
+  max-width: 410px;
+}
+
+.auth-heading {
+  margin-bottom: 38px;
+}
+
+.auth-label {
+  color: #c86b42;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.auth-heading h2 {
+  color: #29231f;
+  font-size: 36px;
+  line-height: 1.1;
+  margin: 0 0 12px;
+  letter-spacing: -1px;
+}
+
+.auth-heading > p:last-child {
+  color: #81756d;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ================================
+   FORM
+================================ */
+
+.form-group {
+  margin-bottom: 23px;
+}
+
+.form-group label {
+  display: block;
+  color: #3b332e;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  border: 1px solid #ded4cd;
+  border-radius: 9px;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #29231f;
+  outline: none;
+  background: #fffdfb;
+  transition: 0.2s ease;
+}
+
+.form-group input:focus {
+  border-color: #c86b42;
+  box-shadow: 0 0 0 3px rgba(200, 107, 66, 0.1);
+}
+
+.form-group input::placeholder {
+  color: #aaa19b;
+}
+
+/* ================================
+   PASSWORD
+================================ */
+
+.password-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-label a {
+  color: #c86b42;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.password-label a:hover {
+  text-decoration: underline;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  padding-right: 65px;
+}
+
+.show-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  color: #c86b42;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* ================================
+   REMEMBER
+================================ */
+
+.remember-row {
+  margin: -3px 0 23px;
+}
+
+.remember-row label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #756b64;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.remember-row input {
+  accent-color: #c86b42;
+}
+
+/* ================================
+   LOGIN BUTTON
+================================ */
+
+.auth-submit {
+  width: 100%;
+  height: 51px;
+  border: none;
+  border-radius: 9px;
+  background: #29231f;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.auth-submit:hover {
+  background: #c86b42;
+  transform: translateY(-1px);
+}
+
+/* ================================
+   DIVIDER
+================================ */
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 27px 0;
+  color: #aaa19b;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e8e0da;
+}
+
+/* ================================
+   GOOGLE
+================================ */
+
+.google-button {
+  width: 100%;
+  height: 49px;
+  border: 1px solid #ded4cd;
+  border-radius: 9px;
+  background: white;
+  color: #3b332e;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.2s ease;
+}
+
+.google-button:hover {
+  background: #faf7f4;
+  border-color: #c9beb6;
+}
+
+.google-icon {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* ================================
+   SIGNUP LINK
+================================ */
+
+.auth-switch {
+  text-align: center;
+  margin-top: 28px;
+  color: #81756d;
+  font-size: 13px;
+}
+
+.auth-switch a {
+  color: #c86b42;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.auth-switch a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 850px) {
+  .auth-page {
+    padding: 30px 5%;
+  }
+
+  .auth-container {
+    grid-template-columns: 1fr;
+  }
+
+  .auth-visual {
+    min-height: 300px;
+    padding: 40px;
+  }
+
+  .visual-overlay h1 {
+    font-size: 48px;
+  }
+
+  .visual-stat {
+    display: none;
+  }
+
+  .auth-form-section {
+    padding: 45px 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .auth-page {
+    padding: 15px;
+  }
+
+  .auth-container {
+    border-radius: 15px;
+  }
+
+  .auth-visual {
+    min-height: 240px;
+    padding: 30px;
+  }
+
+  .visual-overlay h1 {
+    font-size: 42px;
+  }
+
+  .auth-form-section {
+    padding: 35px 22px;
+  }
+
+  .auth-heading h2 {
+    font-size: 30px;
+  }
+}

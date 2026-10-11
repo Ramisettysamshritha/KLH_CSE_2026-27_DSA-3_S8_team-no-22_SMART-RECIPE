@@ -1,0 +1,724 @@
+/* =========================================================
+   ABOUT PAGE
+========================================================= */
+
+.about-page {
+  min-height: 100vh;
+  background: #f7f4ef;
+  color: #27241f;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.about-hero {
+  min-height: 560px;
+  padding: 100px 7% 85px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 70px;
+
+  background: #25231f;
+  color: #f7f4ef;
+}
+
+.about-hero-content {
+  max-width: 760px;
+}
+
+.about-label {
+  margin: 0 0 22px;
+
+  color: #b9ad9c;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.about-hero h1 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(60px, 8vw, 112px);
+  line-height: 0.9;
+  font-weight: 400;
+  letter-spacing: -5px;
+}
+
+.about-hero h1 span {
+  color: #d6a06a;
+  font-style: italic;
+}
+
+.about-hero-text {
+  max-width: 570px;
+  margin: 35px 0 0;
+
+  color: #c8c1b8;
+
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.about-hero-number {
+  width: 240px;
+  padding-top: 18px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.about-hero-number span {
+  display: block;
+  margin-bottom: 20px;
+
+  color: #9e9384;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.about-hero-number p {
+  margin: 0;
+
+  color: #aaa39a;
+
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   GENERAL
+========================================================= */
+
+.section-label {
+  margin: 0 0 12px;
+
+  color: #9b8d7c;
+
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.about-intro {
+  padding: 100px 7%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+
+  background: #f7f4ef;
+}
+
+.about-intro-heading h2 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 5vw, 66px);
+  line-height: 0.98;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.about-intro-text {
+  max-width: 590px;
+  padding-top: 35px;
+}
+
+.about-intro-text p {
+  margin: 0 0 25px;
+
+  color: #666057;
+
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.about-intro-text p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   PROCESS
+========================================================= */
+
+.about-process {
+  padding: 100px 7%;
+
+  background: #ebe7df;
+}
+
+.about-process-heading {
+  max-width: 700px;
+  margin-bottom: 65px;
+}
+
+.about-process-heading h2 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(45px, 5vw, 70px);
+  line-height: 0.95;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  border-top: 1px solid #cfc8bd;
+  border-left: 1px solid #cfc8bd;
+}
+
+.process-card {
+  min-height: 230px;
+  padding: 35px;
+
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  gap: 25px;
+
+  border-right: 1px solid #cfc8bd;
+  border-bottom: 1px solid #cfc8bd;
+
+  background: rgba(255, 255, 255, 0.22);
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.process-card:hover {
+  background: #f8f5ef;
+  transform: translateY(-3px);
+}
+
+.process-card > span {
+  color: #a4937e;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.process-card h3 {
+  margin: 0 0 13px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.process-card p {
+  max-width: 420px;
+  margin: 0;
+
+  color: #706960;
+
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   DSA SECTION
+========================================================= */
+
+.about-dsa {
+  padding: 110px 7%;
+
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 100px;
+
+  background: #25231f;
+  color: #f5f1ea;
+}
+
+.dsa-heading {
+  max-width: 520px;
+}
+
+.dsa-heading .section-label {
+  color: #b4a695;
+}
+
+.dsa-heading h2 {
+  margin: 0 0 28px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(45px, 5vw, 70px);
+  line-height: 0.95;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.dsa-heading > p {
+  margin: 0;
+
+  color: #bdb6ad;
+
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.dsa-content {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dsa-item {
+  padding: 28px 0;
+
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 25px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dsa-number {
+  color: #9f907e;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+.dsa-item h3 {
+  margin: 0 0 9px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.dsa-item p {
+  max-width: 560px;
+  margin: 0;
+
+  color: #aaa39a;
+
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   ALGORITHM FLOW
+========================================================= */
+
+.algorithm-section {
+  padding: 100px 7%;
+
+  background: #f7f4ef;
+}
+
+.algorithm-heading {
+  margin-bottom: 60px;
+}
+
+.algorithm-heading h2 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 5vw, 65px);
+  line-height: 0.97;
+  font-weight: 400;
+}
+
+.algorithm-flow {
+  padding: 30px;
+
+  display: flex;
+  align-items: stretch;
+
+  border: 1px solid #d5cec3;
+  background: #fff;
+}
+
+.algorithm-step {
+  flex: 1;
+  min-height: 115px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: #f8f6f2;
+  border: 1px solid #e0dad1;
+}
+
+.algorithm-step strong {
+  color: #a18f79;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.algorithm-step span {
+  color: #37342f;
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.algorithm-arrow {
+  width: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #9e8d78;
+
+  font-size: 20px;
+}
+
+
+/* =========================================================
+   TECHNOLOGY
+========================================================= */
+
+.technology-section {
+  padding: 100px 7%;
+
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 90px;
+
+  background: #ebe7df;
+}
+
+.technology-heading h2 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(43px, 5vw, 65px);
+  line-height: 0.96;
+  font-weight: 400;
+}
+
+.technology-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  border-top: 1px solid #cfc8bd;
+  border-left: 1px solid #cfc8bd;
+}
+
+.technology-card {
+  min-height: 210px;
+  padding: 28px;
+
+  border-right: 1px solid #cfc8bd;
+  border-bottom: 1px solid #cfc8bd;
+
+  background: rgba(255, 255, 255, 0.2);
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.technology-card:hover {
+  background: #f8f5ef;
+  transform: translateY(-3px);
+}
+
+.technology-card > span {
+  color: #a4937e;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+}
+
+.technology-card h3 {
+  margin: 25px 0 10px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.technology-card p {
+  margin: 0;
+
+  color: #6f685f;
+
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.about-cta {
+  padding: 95px 7%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 60px;
+
+  background: #d8a36b;
+  color: #27231e;
+}
+
+.about-cta-label {
+  margin: 0 0 15px;
+
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.about-cta h2 {
+  margin: 0 0 22px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(45px, 5vw, 70px);
+  line-height: 0.95;
+  font-weight: 400;
+}
+
+.about-cta > div:first-child > p:last-child {
+  max-width: 460px;
+  margin: 0;
+
+  color: #5e4936;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.about-cta-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+
+  min-width: 220px;
+}
+
+.about-primary-button,
+.about-secondary-button {
+  padding: 16px 22px;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.about-primary-button {
+  background: #25231f;
+  color: #fff;
+}
+
+.about-primary-button:hover {
+  background: #fff;
+  color: #25231f;
+  transform: translateY(-2px);
+}
+
+.about-secondary-button {
+  border: 1px solid rgba(37, 35, 31, 0.35);
+  color: #302a23;
+}
+
+.about-secondary-button:hover {
+  background: #25231f;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+  .about-hero {
+    padding-left: 6%;
+    padding-right: 6%;
+
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-hero-number {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .about-intro,
+  .about-dsa,
+  .technology-section {
+    grid-template-columns: 1fr;
+    gap: 55px;
+
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .algorithm-section,
+  .about-process,
+  .about-cta {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .algorithm-flow {
+    overflow-x: auto;
+  }
+
+  .algorithm-step {
+    min-width: 150px;
+  }
+
+  .algorithm-arrow {
+    min-width: 40px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .about-hero {
+    min-height: auto;
+    padding: 70px 6% 60px;
+  }
+
+  .about-hero h1 {
+    font-size: 58px;
+    letter-spacing: -3px;
+  }
+
+  .about-hero-text {
+    font-size: 14px;
+  }
+
+  .about-intro,
+  .about-process,
+  .about-dsa,
+  .algorithm-section,
+  .technology-section,
+  .about-cta {
+    padding: 65px 6%;
+  }
+
+  .about-intro-heading h2,
+  .about-process-heading h2,
+  .dsa-heading h2,
+  .algorithm-heading h2,
+  .technology-heading h2,
+  .about-cta h2 {
+    font-size: 43px;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-card {
+    min-height: auto;
+    padding: 28px 22px;
+  }
+
+  .dsa-item {
+    grid-template-columns: 45px 1fr;
+    gap: 15px;
+  }
+
+  .dsa-item h3 {
+    font-size: 22px;
+  }
+
+  .algorithm-flow {
+    padding: 15px;
+  }
+
+  .algorithm-step {
+    min-width: 145px;
+  }
+
+  .technology-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .technology-card {
+    min-height: auto;
+  }
+
+  .about-cta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-cta-buttons {
+    width: 100%;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 420px) {
+
+  .about-hero h1 {
+    font-size: 50px;
+  }
+
+  .about-intro-heading h2,
+  .about-process-heading h2,
+  .dsa-heading h2,
+  .algorithm-heading h2,
+  .technology-heading h2,
+  .about-cta h2 {
+    font-size: 38px;
+  }
+
+  .process-card {
+    grid-template-columns: 40px 1fr;
+  }
+
+  .about-hero-number {
+    width: 100%;
+  }
+
+}

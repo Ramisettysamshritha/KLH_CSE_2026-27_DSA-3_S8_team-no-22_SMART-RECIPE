@@ -1,0 +1,639 @@
+/* =========================================================
+   SMART RECIPE — PREMIUM NAVBAR
+   ========================================================= */
+
+.navbar {
+  width: 100%;
+  height: 88px;
+
+  padding: 0 64px;
+
+  display: flex;
+  align-items: center;
+
+  background: rgba(255, 250, 245, 0.96);
+
+  border-bottom: 1px solid rgba(41, 35, 31, 0.08);
+
+  position: relative;
+  z-index: 1000;
+
+  box-sizing: border-box;
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  transition:
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.navbar-logo {
+  position: relative;
+
+  display: inline-flex;
+  align-items: baseline;
+
+  color: #29231f;
+
+  text-decoration: none;
+
+  font-size: 25px;
+  font-weight: 800;
+
+  letter-spacing: 0.8px;
+
+  line-height: 1;
+
+  white-space: nowrap;
+
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.navbar-logo span {
+  color: #c9683d;
+
+  margin-right: 4px;
+}
+
+.navbar-logo::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: -8px;
+
+  width: 0;
+  height: 2px;
+
+  background: #c9683d;
+
+  border-radius: 2px;
+
+  transition: width 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: translateY(-1px);
+}
+
+.navbar-logo:hover::after {
+  width: 32px;
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+.navbar-links {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+
+  margin-left: auto;
+  margin-right: 42px;
+}
+
+.nav-link {
+  position: relative;
+
+  height: 42px;
+
+  padding: 0 13px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #5b534d;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 550;
+
+  letter-spacing: 0.1px;
+
+  white-space: nowrap;
+
+  border-radius: 7px;
+
+  transition:
+    color 0.25s ease,
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.nav-link:hover {
+  color: #c9683d;
+
+  background: rgba(201, 104, 61, 0.07);
+
+  transform: translateY(-1px);
+}
+
+.nav-link.active {
+  color: #29231f;
+
+  font-weight: 700;
+
+  background: rgba(201, 104, 61, 0.09);
+}
+
+.nav-link.active::before {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  bottom: -8px;
+
+  width: 18px;
+  height: 3px;
+
+  background: #c9683d;
+
+  border-radius: 20px;
+
+  transform: translateX(-50%);
+}
+
+
+/* =========================================================
+   ACCOUNT
+   ========================================================= */
+
+.navbar-account {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   ACCOUNT BUTTON
+   ========================================================= */
+
+.account-button {
+  position: relative;
+
+  width: 48px;
+  height: 48px;
+
+  padding: 0;
+
+  border: 1px solid rgba(41, 35, 31, 0.13);
+
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  color: #29231f;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 3px 12px rgba(41, 35, 31, 0.05);
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.account-button:hover {
+  background: #29231f;
+
+  color: #ffffff;
+
+  border-color: #29231f;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 25px rgba(41, 35, 31, 0.17);
+}
+
+.account-button.open {
+  background: #29231f;
+
+  color: #ffffff;
+
+  border-color: #29231f;
+
+  box-shadow:
+    0 10px 25px rgba(41, 35, 31, 0.17);
+}
+
+.account-button:active {
+  transform: scale(0.95);
+}
+
+
+/* =========================================================
+   ACCOUNT ICON
+   ========================================================= */
+
+.account-icon {
+  width: 21px;
+  height: 21px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-icon svg {
+  width: 21px;
+  height: 21px;
+
+  display: block;
+
+  stroke: currentColor;
+}
+
+
+/* =========================================================
+   ACCOUNT ARROW
+   ========================================================= */
+
+.account-arrow {
+  position: absolute;
+
+  right: 7px;
+  bottom: 7px;
+
+  width: 10px;
+  height: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 9px;
+
+  line-height: 1;
+
+  opacity: 0.7;
+}
+
+
+/* =========================================================
+   SMALL LOGGED-IN INDICATOR
+   ========================================================= */
+
+.account-button::after {
+  content: "";
+
+  position: absolute;
+
+  top: 2px;
+  right: 3px;
+
+  width: 7px;
+  height: 7px;
+
+  background: #c9683d;
+
+  border: 2px solid #fffaf5;
+
+  border-radius: 50%;
+}
+
+
+/* =========================================================
+   DROPDOWN
+   ========================================================= */
+
+.account-dropdown {
+  position: absolute;
+
+  top: calc(100% + 14px);
+  right: 0;
+
+  width: 275px;
+
+  padding: 9px;
+
+  background: rgba(255, 250, 245, 0.98);
+
+  border: 1px solid rgba(41, 35, 31, 0.1);
+
+  border-radius: 14px;
+
+  box-shadow:
+    0 22px 55px rgba(41, 35, 31, 0.15);
+
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  z-index: 2000;
+
+  box-sizing: border-box;
+
+  animation: accountDropdownIn 0.2s ease-out;
+}
+
+@keyframes accountDropdownIn {
+
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+}
+
+
+/* =========================================================
+   USER HEADER
+   ========================================================= */
+
+.account-user {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  padding: 13px 11px;
+}
+
+.account-avatar {
+  width: 43px;
+  height: 43px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      135deg,
+      #d77a4c,
+      #a94f32
+    );
+
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: 800;
+
+  box-shadow:
+    0 5px 14px rgba(169, 79, 50, 0.22);
+}
+
+.account-user-details {
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+.account-user-details strong {
+  color: #29231f;
+
+  font-size: 14px;
+  font-weight: 750;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.account-user-details span {
+  color: #887f77;
+
+  font-size: 12px;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.account-divider {
+  height: 1px;
+
+  margin: 3px 5px 7px;
+
+  background: rgba(41, 35, 31, 0.09);
+}
+
+
+/* =========================================================
+   ACCOUNT MENU
+   ========================================================= */
+
+.account-menu-item {
+  width: 100%;
+
+  min-height: 45px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: transparent;
+
+  color: #3c352f;
+
+  padding: 10px 12px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 11px;
+
+  font-family: inherit;
+
+  font-size: 14px;
+  font-weight: 650;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.account-menu-item:hover {
+  background: #f2e8e0;
+
+  color: #c9683d;
+
+  transform: translateX(2px);
+}
+
+.account-menu-item span {
+  width: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 17px;
+}
+
+.logout-item {
+  color: #a95238;
+}
+
+.logout-item:hover {
+  background: #f8e7e1;
+
+  color: #a95238;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+  .navbar {
+    padding: 0 40px;
+  }
+
+  .navbar-links {
+    gap: 3px;
+
+    margin-right: 28px;
+  }
+
+  .nav-link {
+    padding: 0 10px;
+
+    font-size: 13px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .navbar {
+    height: auto;
+
+    min-height: 82px;
+
+    padding: 18px 30px;
+
+    flex-wrap: wrap;
+
+    row-gap: 14px;
+  }
+
+  .navbar-logo {
+    font-size: 23px;
+  }
+
+  .navbar-links {
+    order: 3;
+
+    width: 100%;
+
+    height: 42px;
+
+    margin: 0;
+
+    justify-content: center;
+
+    gap: 5px;
+
+    overflow-x: auto;
+
+    scrollbar-width: none;
+  }
+
+  .navbar-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-link {
+    height: 40px;
+
+    font-size: 13px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .navbar {
+    padding: 16px 18px;
+  }
+
+  .navbar-logo {
+    font-size: 20px;
+  }
+
+  .account-button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .navbar-links {
+    justify-content: flex-start;
+  }
+
+  .account-dropdown {
+    width: 250px;
+
+    right: -5px;
+  }
+
+}
